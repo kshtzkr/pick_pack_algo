@@ -1,0 +1,10 @@
+development: &default
+  adapter: postgresql
+  database: picker_package
+  # database: tasker_production_v2
+  username: postgres
+  password: postgres
+  encoding: utf8
+  host: localhost
+  pool: 2
+  timeout: 5000
